@@ -1,0 +1,18 @@
+{
+  "name": "automatedtestwithcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:test": "cypress run --spec ./cypress/e2e/practice.cy.js --reporter json --headed --browser chrome",
+    "cy:testing": "cypress run --headed --browser chrome"
+  },
+  "author": "Antonio Seraus",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "dependencies": {
+    "mochawesome-report": "^1.0.0-alpha.1"
+  }
+}
